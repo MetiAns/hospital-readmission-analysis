@@ -1,2 +1,12 @@
-# hospital-readmission-analysis
-Which patient demographics, clinical factors, and treatments are most strongly associated with 30-day hospital readmission, and what actions can hospitals take to reduce readmission rates?
+# Hospital Readmission Risk Analysis
+
+## Business Question
+Which patient demographics, clinical factors, and treatments are most 
+strongly associated with 30-day hospital readmission, and what can 
+hospitals do to reduce it?
+
+## Tools
+Python (pandas, seaborn, scipy), SQL, Power BI
+
+## Status
+🚧 In progress
