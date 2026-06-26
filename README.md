@@ -1,12 +1,104 @@
-# Hospital Readmission Risk Analysis
+# 🏥 Hospital Readmission Risk Analysis
+
+> Identifying patient and clinical factors associated with 30-day hospital readmission using real-world diabetes data.
+
+---
 
 ## Business Question
-Which patient demographics, clinical factors, and treatments are most 
-strongly associated with 30-day hospital readmission, and what can 
-hospitals do to reduce it?
 
-## Tools
-Python (pandas, seaborn, matplotlib), SQL, Power BI
+**Which patient demographics and clinical factors are most strongly associated with hospital readmission within 30 days — and what patterns can help hospital management reduce preventable readmissions?**
 
-## Status
-🚧 In progress
+---
+
+## Tools & Technologies
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-lightblue?logo=pandas)
+![Seaborn](https://img.shields.io/badge/Seaborn-EDA-9cf)
+![SQL](https://img.shields.io/badge/SQLite-SQL%20Queries-green?logo=sqlite)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+
+---
+
+## Dataset
+
+- **Source:** [Diabetes 130-US Hospitals Dataset — Kaggle](https://www.kaggle.com/datasets/brandao/diabetes)
+- **Size:** ~100,000 patient encounters, 50 features
+- **Period:** 1999–2008 across 130 US hospitals
+
+---
+
+## Project Structure
+
+hospital_readmission/
+
+│
+
+├── data/
+
+│   ├── clean.csv               # Cleaned dataset (raw excluded from Git)
+
+│   └── top_medications.csv     # Aggregated medication data
+
+│
+
+├── notebooks/
+
+│   └── eda_analysis.ipynb      # Full EDA 
+
+│
+
+└── outputs/
+
+├── dashboard_p1.png        # Power BI page 1 — Overview
+
+├── dashboard_p2.png        # Power BI page 2 — Clinical factors
+
+├── dashboard_p3.png        # Power BI page 3 — Medications
+
+
+---
+
+## Key Findings
+
+- 📌 Finding 1 —
+- 📌 Finding 2 —
+- 📌 Finding 3 —
+
+---
+
+## Dashboard
+
+### Page 1 — Overview
+
+[PASTE dashboard_p1.png screenshot here]
+> Overall readmission rate KPI · Readmission by age group · Readmission by number of diagnoses
+
+---
+
+### Page 2 — Clinical Factors
+
+[PASTE dashboard_p2.png screenshot here]
+> Time in hospital · Lab procedures vs medications · Readmission rate by diagnosis category
+
+---
+
+### Page 3 — Medications & Treatment
+
+[PASTE dashboard_p3.png screenshot here]
+> Insulin change vs readmission · Top 5 medications among readmitted patients
+
+---
+
+## Executive Summary
+
+📄 [Click here to read the 1-page executive summary](outputs/executive_summary.pdf)
+
+Written for a non-technical audience — no code, no jargon. Covers the business question, methodology, key findings, and two actionable recommendations for hospital management.
+
+---
+
+## Author
+
+**[Your Name]**
+[LinkedIn URL] · [Email or portfolio link]
