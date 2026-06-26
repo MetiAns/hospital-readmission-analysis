@@ -38,8 +38,6 @@ hospital_readmission/
 
 │   ├── clean.csv               # Cleaned dataset (raw excluded from Git)
 
-│   └── top_medications.csv     # Aggregated medication data
-
 │
 
 ├── notebooks/
