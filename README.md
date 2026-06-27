@@ -28,35 +28,6 @@
 
 ---
 
-## Project Structure
-
-hospital_readmission/
-
-│
-
-├── data/
-
-│   ├── clean.csv               # Cleaned dataset (raw excluded from Git)
-
-│
-
-├── notebooks/
-
-│   └── eda_analysis.ipynb      # Full EDA 
-
-│
-
-└── outputs/
-
-├── dashboard_p1.png        # Power BI page 1 — Overview
-
-├── dashboard_p2.png        # Power BI page 2 — Clinical factors
-
-├── dashboard_p3.png        # Power BI page 3 — Medications
-
-
----
-
 ## Key Findings
 
 - 📌 Finding 1 —
