@@ -30,9 +30,11 @@
 
 ## Key Findings
 
-- 📌 Finding 1 —
-- 📌 Finding 2 —
-- 📌 Finding 3 —
+
+Demographic Insight: Patients aged 70–80 formed the largest segment (25.6%), averaging 4.8 hospital days with a higher-than-average readmission rate (48.1% vs. 46.1% overall).
+.
+High-Risk Profiles: Discovered that emergency patients aged 60–90 with stays >4.25 days and insulin-based treatments had the highest probability of readmission.
+
 
 ---
 
